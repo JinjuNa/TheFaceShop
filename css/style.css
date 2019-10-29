@@ -1,0 +1,164 @@
+@charset 'utf-8';
+
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration:none;
+}
+img{
+    vertical-align: top;
+}
+
+.wrap{
+    width:1200px;
+    margin:0 auto;
+    position: relative;
+}
+
+/* header */
+header{
+    height: 945px;
+    background-image: url(../images/mainslider.jpg);
+    background-size:auto 100%;
+    background-position: center;
+
+}
+
+h1{
+    padding-top:85px;
+}
+
+.gnb{
+    /* margin-top:85px; */
+    position: absolute;
+    top:85px;
+    left:385px;
+}
+
+.gnb ul:after{
+    display: block;
+    clear:both;
+    content:'';
+}
+
+.gnb ul li{
+    float:left;
+    margin-right: 65px;
+}
+
+.util{
+    position: absolute;
+    top:55px;
+    right:0;
+}
+
+.util li{
+    float: left;
+    padding-right:10px;
+    /* margin-left:10px */
+}
+
+.util li:after{
+    content:'|';
+    margin-left:10px;
+}
+
+.util li img{
+    vertical-align: middle;
+}
+
+/* bestProduct */
+
+.bestTitle{
+    margin-top:185px;
+}
+
+.itemBox{
+    width:750px;
+    margin:0 auto;
+    margin-top: 140px;
+    text-align: center;
+    margin-bottom:240px;
+}
+
+.itemBox:after{
+    display: block;
+    clear:both;
+    content:'';
+}
+
+.itemBox .col{
+    width:250px;
+    float:left;
+    position: relative;
+}
+
+.col1, .col3{
+    padding-top:75px;
+    height: 650px;
+}
+
+.col1 img:last-child{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-93px;
+}
+
+.col3 img:last-child{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-92px
+}
+
+/* video */
+
+.video{
+    width:100%;
+    height:582px;
+    background-image: url(../images/vivid_background.jpg);
+    background-size:cover;
+}
+
+.vividCircle{
+    position: absolute;
+    top:-55px;
+    left:-55px;
+}
+
+/* HotNew */
+
+.HotNewTitle{
+    margin-top:200px;   
+    margin-bottom:260px;
+}
+
+.HotNew .itmes{
+    text-align: center  ;
+    margin-bottom:300px;
+}
+
+/* PhotoReview */
+
+.PhotoReview{
+    background-color: #f8f3e9;
+    height: 1400px;
+}
+
+.PhotoReviewTitle{
+    padding-top:190px;
+    margin-bottom:210px;
+}
+
+.PhotoReview .itmes{
+    text-align: center;
+}
